@@ -1,6 +1,6 @@
 layers:
   BASE:
-  - {t: NUM, h: toggle}
+  - TAB
   - Q
   - W
   - E
@@ -12,22 +12,22 @@ layers:
   - O
   - P
   - L_BASE L_PHOTO L_GAME
-  - {t: TAB, h: LCMD}
+  - {t: CAPSLOCK, h: LEFT CONTROL}
   - {t: A, h: NAV}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LEFT SHIFT}
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: LEFT SHIFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RIGHT ALT}
+  - J
+  - K
+  - L
   - {t: ;, h: LCMD}
   - DEL
-  - SEARCH
+  - LEFT SHIFT
   - Z
-  - {t: X, h: MEH}
-  - {t: C, h: HYPER}
+  - X
+  - C
   - V
   - B
   - N
