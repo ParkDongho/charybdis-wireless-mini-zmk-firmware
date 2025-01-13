@@ -1,6 +1,6 @@
 layers:
   BASE:
-  - {t: BASE, h: toggle}
+  - {t: NUM, h: toggle}
   - Q
   - W
   - E
