@@ -32,8 +32,8 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: HYPER}
-  - {t: ., h: MEH}
+  - ','
+  - .
   - /
   - DEV TOOLS
   - SCRL SLOW
