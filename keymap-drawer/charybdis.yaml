@@ -11,9 +11,9 @@ layers:
   - I
   - O
   - P
-  - L_BASE L_PHOTO L_GAME
+  - BACK SPACE
   - {t: CAPSLOCK, h: LEFT CONTROL}
-  - {t: A, h: NAV}
+  - A
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - {t: ;, h: LCMD}
-  - DEL
+  - ENTER
   - {t: LEFT COMMAND, h: LEFT SHIFT}
   - Z
   - X
@@ -35,7 +35,7 @@ layers:
   - ','
   - .
   - /
-  - DEV TOOLS
+  - {t: NAV, h: toggle}
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
@@ -86,7 +86,7 @@ layers:
   NAV:
   - ''
   - ''
-  - ''
+  - UP ARROW
   - ''
   - ''
   - ''
@@ -97,9 +97,9 @@ layers:
   - PANE ▶
   - ''
   - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
   - ''
   - ''
