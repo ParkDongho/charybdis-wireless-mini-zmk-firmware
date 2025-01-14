@@ -1,12 +1,11 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <behaviors/mouse_keys.dtsi>
-#include <dt-bindings/zmk/ext_power.h>
 #include "macros.dtsi"
-
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 // / {
 //     chosen { zmk,matrix_transform = &default_transform; };
@@ -184,10 +183,10 @@
 
         BASE {
             bindings = <
-&kp TAB                      &kp Q  &kp W  &kp E       &kp R      &kp T              &kp Y         &kp U        &kp I      &kp O       &kp P               &kp BACKSPACE
-&hm LEFT_CONTROL CAPSLOCK    &kp A  &kp S  &kp D       &kp F      &kp G              &kp H         &kp J        &kp K      &kp L       &hm LCMD SEMICOLON  &kp ENTER
-&hm LEFT_SHIFT LEFT_COMMAND  &kp Z  &kp X  &kp C       &kp V      &kp B              &kp N         &kp M        &kp COMMA  &kp PERIOD  &kp FSLH            &to 2
-                                           &td_cursor  &mkp LCLK  &lt 1 BACKSPACE    &lt 4 RETURN  &lt 3 SPACE
+&kp TAB                      &kp Q  &kp W  &kp E      &kp R      &kp T              &kp Y         &kp U        &kp I      &kp O       &kp P               &kp BACKSPACE
+&hm LEFT_CONTROL CAPSLOCK    &kp A  &kp S  &kp D      &kp F      &kp G              &kp H         &kp J        &kp K      &kp L       &hm LCMD SEMICOLON  &kp ENTER
+&hm LEFT_SHIFT LEFT_COMMAND  &kp Z  &kp X  &kp C      &kp V      &kp B              &kp N         &kp M        &kp COMMA  &kp PERIOD  &kp FSLH            &to 2
+                                           &lt 6 ESC  &mkp LCLK  &lt 1 BACKSPACE    &lt 4 RETURN  &lt 3 SPACE
             >;
         };
 
