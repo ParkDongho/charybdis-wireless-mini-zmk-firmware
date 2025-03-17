@@ -40,7 +40,7 @@ layers:
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
-  - {t: RETURN, h: MOUSE}
+  - {t: RETURN, h: NAV}
   - {t: SPACE, h: SYM}
   NUM:
   - {t: ▽, type: trans}
@@ -334,7 +334,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RETURN, type: held}
+  - RETURN
   - {t: ▽, type: trans}
   SLOW:
   - {t: ▽, type: trans}
