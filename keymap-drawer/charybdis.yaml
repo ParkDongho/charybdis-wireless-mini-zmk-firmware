@@ -103,11 +103,11 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - ''
-  - ''
   - LEFT
   - DOWN
   - UP
   - RIGHT
+  - ''
   - ''
   - ''
   - ''
@@ -122,7 +122,7 @@ layers:
   - END
   - {type: held}
   - ''
-  - ''
+  - LEFT COMMAND
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
