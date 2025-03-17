@@ -40,8 +40,8 @@ layers:
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
-  - {t: RETURN, h: NAV}
-  - {t: SPACE, h: SYM}
+  - {t: RETURN, h: SYM}
+  - {t: SPACE, h: NAV}
   NUM:
   - {t: ▽, type: trans}
   - ''
@@ -92,10 +92,10 @@ layers:
   - ''
   - ''
   - ''
-  - PANE ◀
-  - PANE ▲
-  - PANE ▼
-  - PANE ▶
+  - Gui+ LEFT
+  - Gui+ DOWN
+  - Gui+ UP
+  - Gui+ RIGHT
   - ''
   - {t: ▽, type: trans}
   - LEFT
@@ -166,8 +166,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
   - {type: held}
+  - {t: ▽, type: trans}
   '4':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
