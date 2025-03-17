@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RIGHT SHIFT}
   - {t: ;, h: RIGHT CONTROL}
   - ENTER
-  - LEFT COMMAND
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -92,15 +92,15 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+ LEFT
-  - Gui+ DOWN
-  - Gui+ UP
-  - Gui+ RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - RIGHT
+  - Gui+ D
   - {t: ▽, type: trans}
   - ''
   - LEFT
@@ -115,14 +115,14 @@ layers:
   - ''
   - ''
   - ''
+  - Gui+ LEFT
+  - Gui+ DOWN
+  - Gui+ UP
+  - Gui+ RIGHT
   - ''
-  - HOME
-  - PG DN
-  - PG UP
-  - END
   - {type: held}
   - ''
-  - LEFT COMMAND
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
