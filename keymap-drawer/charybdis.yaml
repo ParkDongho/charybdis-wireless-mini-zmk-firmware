@@ -13,20 +13,20 @@ layers:
   - O
   - P
   - {t: BASE, h: toggle}
-  - {t: CAPSLOCK, h: LEFT CONTROL}
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT SHIFT}
+  - LEFT CONTROL
+  - A
+  - S
   - D
   - F
   - G
   - H
   - J
   - K
-  - {t: L, h: RIGHT SHIFT}
-  - {t: ;, h: RIGHT CONTROL}
+  - L
+  - ;
   - ENTER
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: LEFT COMMAND}
   - X
   - C
   - V
@@ -86,8 +86,8 @@ layers:
   - {t: ▽, type: trans}
   NAV:
   - ''
-  - ''
-  - UP ARROW
+  - Gui+ Q
+  - Gui+ W
   - ''
   - ''
   - ''
@@ -109,7 +109,7 @@ layers:
   - RIGHT
   - ''
   - ''
-  - ''
+  - LEFT SHIFT
   - ''
   - ''
   - ''
