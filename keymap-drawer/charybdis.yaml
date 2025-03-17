@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: charybdis}
 layers:
   BASE:
   - TAB
@@ -13,18 +14,18 @@ layers:
   - P
   - {t: BASE, h: toggle}
   - {t: CAPSLOCK, h: LEFT CONTROL}
-  - A
-  - S
+  - {t: A, h: LEFT CONTROL}
+  - {t: S, h: LEFT SHIFT}
   - D
   - F
   - G
   - H
   - J
   - K
-  - L
-  - {t: ;, h: LCMD}
+  - {t: L, h: RIGHT SHIFT}
+  - {t: ;, h: RIGHT CONTROL}
   - ENTER
-  - {t: LEFT COMMAND, h: LEFT SHIFT}
+  - LEFT COMMAND
   - Z
   - X
   - C
@@ -35,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: RIGHT WIN, h: NAV}
+  - {t: RIGHT COMMAND, h: NAV}
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
