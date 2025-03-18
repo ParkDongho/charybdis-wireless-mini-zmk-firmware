@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: RIGHT COMMAND, h: NAV}
+  - ''
   - SCRL SLOW
   - L CLK
   - {t: BACK SPACE, h: NUM}
@@ -109,7 +109,7 @@ layers:
   - RIGHT
   - ''
   - ''
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -120,12 +120,12 @@ layers:
   - Gui+ UP
   - Gui+ RIGHT
   - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   SYM:
   - ''
   - +
