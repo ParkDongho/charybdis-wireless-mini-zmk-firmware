@@ -85,7 +85,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   NAV:
-  - ''
+  - Gui+ TAB
   - Gui+ Q
   - Gui+ W
   - ''
