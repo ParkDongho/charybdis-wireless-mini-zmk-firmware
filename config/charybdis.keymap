@@ -1,11 +1,9 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <behaviors/mouse_keys.dtsi>
-#include <dt-bindings/zmk/ext_power.h>
 #include "macros.dtsi"
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 // / {
 //     chosen { zmk,matrix_transform = &default_transform; };
@@ -210,10 +208,10 @@
 
         SYM {
             bindings = <
-&none  &kp PLUS       &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp MINUS             &kp COLON        &kp BSLH   &kp GRAVE             &kp DLLR      &kp CARET        &kp SQT      &none
-&none  &hm LCMD EXCL  &hm LEFT_ALT LPAR  &hm LCTRL RPAR   &hm LEFT_SHIFT SPACE  &kp TILDE        &kp SLASH  &hm LEFT_SHIFT SPACE  &hm LCTRL LT  &hm LEFT_ALT GT  &kp HASH     &none
-&none  &kp EQUAL      &kp LBKT           &kp RBKT         &kp UNDERSCORE        &kp SEMICOLON    &kp PIPE   &kp ASTRK             &kp AMPS      &kp PRCNT        &kp AT_SIGN  &none
-                                         &trans           &trans                &trans           &none      &trans
+&none       &kp PLUS       &kp LEFT_BRACE     &kp RIGHT_BRACE  &kp MINUS             &kp COLON        &kp BSLH   &kp GRAVE             &kp DLLR      &kp CARET        &kp SQT      &none
+&none       &hm LCMD EXCL  &hm LEFT_ALT LPAR  &hm LCTRL RPAR   &hm LEFT_SHIFT SPACE  &kp TILDE        &kp SLASH  &hm LEFT_SHIFT SPACE  &hm LCTRL LT  &hm LEFT_ALT GT  &kp HASH     &none
+&kp LSHIFT  &kp EQUAL      &kp LBKT           &kp RBKT         &kp UNDERSCORE        &kp SEMICOLON    &kp PIPE   &kp ASTRK             &kp AMPS      &kp PRCNT        &kp AT_SIGN  &none
+                                              &trans           &trans                &trans           &none      &trans
             >;
         };
 
