@@ -202,7 +202,7 @@
 &kp LG(TAB)       &kp LG(Q)         &kp LG(W)     &none      &none   &kp LG(RETURN)    &kp LG(U)     &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &none  &none
 &kp LEFT_CONTROL  &kp LEFT          &kp DOWN      &kp LG(D)  &trans  &none             &kp LEFT      &kp DOWN          &kp UP            &kp RIGHT         &none  &kp LG(RET)
 &kp LSHIFT        &kp LEFT_COMMAND  &kp LEFT_ALT  &none      &none   &none             &kp LG(LEFT)  &kp LG(DOWN)      &kp LG(UP)        &kp LG(RIGHT)     &none  &none
-                                                  &none      &none   &trans            &trans        &trans
+                                                  &none      &none   &trans            &trans        &none
             >;
         };
 
